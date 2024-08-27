@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("health")
+@RequestMapping("/health")
 @Tag(name = "Api Rest for brands use Swagger 3 - Gateway")
 public class HealthController {
 
